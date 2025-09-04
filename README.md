@@ -1,6 +1,44 @@
-# React + Vite
+# Personal Portfolio Website
 
-install nvm
+This repository contains the source code for my personal portfolio website.  
+It is built with **React** to showcase my projects, experience, and skills.
+
+---
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (using [nvm](https://github.com/nvm-sh/nvm) is recommended)
+
+---
+
+## Getting Started
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
-find at localhost:5173
+```
+
+The site will be available at:
+http://localhost:5173
+
+## Project Structure
+```bash
+portfolio/
+ ┣ src/
+ ┃ ┣ components/   # Reusable UI components
+ ┃ ┣ App.jsx       # Main application component
+ ┃ ┣ main.jsx      # Application entry point
+ ┃ ┗ index.css     # Global styles
+ ┣ package.json
+ ┗ vite.config.js
+```
+
+## Deployment
+The site will be deployed using vercel.
