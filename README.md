@@ -5,6 +5,8 @@ It is built with **React** to showcase my projects, experience, skills, and who 
 
 ---
 
+![WIP : 04/09/2025](image.png)
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (using [nvm](https://github.com/nvm-sh/nvm) is recommended)
