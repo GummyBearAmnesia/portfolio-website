@@ -4,10 +4,15 @@
   left: 0;
   width: 100%;
   background-color: #f89fc3; /* background colour */
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   justify-content: space-between; /* space-between or centre */
   z-index: 1000;
+  filter: drop-shadow(0 0 2em #f89fc3);
+}
+
+.Header :hover {
+  filter: drop-shadow(0 0 2em #ffd665c5);
 }
 
 .Header ul {
@@ -22,8 +27,11 @@
   text-decoration: none;
   color: white; /* text colour */
   font-weight: 500;
+  will-change: filter;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
 .Header a:hover {
-  color: #f2f3ba; /* hover colour */
+  color: #ffd95e; /* hover colour */
+  text-shadow: 0 0 8px #ffd665;
 }
