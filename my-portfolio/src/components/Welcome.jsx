@@ -28,7 +28,12 @@ export default function Welcome() {
                         alt="Oops"
                     />
                 </div>
-                <p>Hi my name is Ammu, and I am like the best person in the whole world</p>
+                <p>
+                    Hi my name is Ammu, and I am like the best person in the whole world
+                    (I am just kidding...)
+                    Anyway, I am a student at KCL and I am about to start my 3rd year very soon!
+                    I am excited :D
+                </p>
             </div>
         </div>
     </div> 
