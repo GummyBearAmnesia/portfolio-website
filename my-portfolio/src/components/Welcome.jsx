@@ -6,7 +6,7 @@ export default function Welcome() {
     <div className="Welcome">
         <img
             src={jiggly}
-            alt="There's meant to be an image here, sorry."S
+            alt="There's meant to be an image here, sorry."
         />
 
         <h1>Ammu's World</h1>
