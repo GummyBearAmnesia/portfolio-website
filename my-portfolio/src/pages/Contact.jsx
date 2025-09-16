@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa/index.js";
 
 function Contact() {
   return (
