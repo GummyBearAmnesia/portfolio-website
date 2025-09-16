@@ -29,10 +29,11 @@ export default function Welcome() {
                     />
                 </div>
                 <p>
-                    Hi my name is Ammu, and I am like the best person in the whole world
-                    (I am just kidding...)
-                    Anyway, I am a student at KCL and I am about to start my 3rd year very soon!
-                    I am excited :D
+                    Hi! My name is Aamukta Malyada, but feel free to call me Ammu :D
+                    I am a Computer Science student at King's College London, and I am about to
+                    start my third year. I am really interested in Game Dev, Linux, and Robotics!
+                    
+                    And I guess web design is cool too ...
                 </p>
             </div>
         </div>

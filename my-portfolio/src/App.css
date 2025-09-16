@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .logo {
   will-change: filter;
   transition: filter 300ms;
@@ -42,13 +50,28 @@
 
 h1 {
   color: #725bb5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;
+  font-weight: 1000;
+  line-height: 1.6;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: rgb(229, 125, 125);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: 1000;
+  line-height: 1.6;
+  flex-wrap: wrap;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
   line-height: 1.6;
-  color: #43101f;
+  color: #c05a72;
   flex-wrap: wrap;
 }
 
@@ -73,3 +96,45 @@ p {
     min-width: 100%; /* each column takes full width on small screens */
   }
 }
+
+.Contact {
+  display: flex;                  /* flexbox for centering */
+  flex-direction: column;         
+  justify-content: center;        /* vertical centering */
+  align-items: center;            /* horizontal centering */
+  text-align: center;             /* center the text too */
+  padding-right: 2rem;
+  padding-left: 2rem;;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items:start;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #4b97ca;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.contact-links a:hover {
+  color: #d55676;
+  text-decoration-line:underline;
+}
+
+.contact-card {
+  background: #eee9e975;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(193, 129, 129, 0.203);
+  max-width: 500px;
+  width: 100%;
+}
+
