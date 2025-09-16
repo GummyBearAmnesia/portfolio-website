@@ -5,7 +5,7 @@ It is built with **React** to showcase my projects, experience, skills, and who 
 
 ---
 
-![WIP : 04/09/2025](image.png)
+<img width="1214" height="879" alt="image" src="https://github.com/user-attachments/assets/158f9746-4820-459a-8037-0a4a04b77bae" />
 
 ## Prerequisites
 
