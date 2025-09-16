@@ -97,7 +97,7 @@ p {
   }
 }
 
-.Contact, .Projects{
+.Contact, .Projects, .Home{
   display: flex;                  /* flexbox for centering */
   flex-direction: column;         
   justify-content: center;        /* vertical centering */
