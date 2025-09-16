@@ -1,11 +1,13 @@
 # Ammu's Portfolio Website
 
+Note! This website is still in its very early stages, a work in progess.
+
 This repository contains the source code for my personal portfolio website.  
-It is built with **React** to showcase my projects, experience, skills, and who I am.
+It is built with React to showcase my projects, experience, skills, and who I am.
 
 ---
 
-![WIP : 04/09/2025](image.png)
+<img width="1214" height="879" alt="image" src="https://github.com/user-attachments/assets/158f9746-4820-459a-8037-0a4a04b77bae" />
 
 ## Prerequisites
 
