@@ -55,6 +55,14 @@ h3 {
   flex-wrap: wrap;
 }
 
+h4 {
+  color: #b95055;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  font-weight: 1000;
+  flex-wrap: wrap;
+}
+
 p {
   font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
@@ -67,6 +75,12 @@ p {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(208, 148, 148, 0.203);
   width: 90%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+p:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(208, 148, 148, 0.3);
 }
 
 a {

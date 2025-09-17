@@ -35,8 +35,6 @@ function Resume() {
             <li>Contributed to both frontend (React, TypeScript) and backend (Java, Spring, PostgreSQL) development.</li>
             <li>Implemented features such as job posting management, applicant tracking, notifications, and error handling.</li>
             <li>Wrote and maintained backend tests to ensure reliability of core functionality.</li>
-            <li>Designed and prototyped new UI/UX flows in Figma, later showcasing them at the end-of-internship presentation.</li>
-            <li>Improved developer experience by documenting setup instructions (frontend & backend) and refining workflow practices.</li>
           </ul>
         </li>
 
@@ -68,12 +66,16 @@ function Resume() {
 
 
 
-      <h3>Skills</h3>
+      <h3>Achievements and Skills</h3>
       <ul>
-        <li><strong>Programming Languages and Frameworks –</strong> C++, C#, Java, SQL, Python (ROS, Django, matplotlib, NumPy), Scala, MATLAB, React, HTML, CSS, REST API</li>
-        <li><strong>Tools and Software –</strong> Unity, Git, GitHub, Adobe Photoshop, Premiere Pro, After Effects, Final Cut Pro</li>
-        <li><strong>Knowledge Areas –</strong> Artificial Intelligence, Data Analysis & Visualisation, Ethics & Regulation in AI, Quantum Computing & Quantum Mechanics (Completed 1 year of a Physics Degree at King’s before transferring to Computer Science)</li>
-        <li><strong>Achievements and Experiences –</strong> Amazon AWS Insight Day 2024; AI (Samsung Bixby) competition winner 2021; UK Maths Challenge: Best in Year 2016, Gold 2017 & 2018; Cambridge Film Competition Winner 2019; KCL Tech Committee</li>
+        <li><strong>Achievements and Experiences –</strong> 
+          <ul>
+            <li>Amazon AWS Insight Day 2024</li>
+            <li>AI (Samsung Bixby) competition winner 2021</li>
+            <li>UK Maths Challenge: Best in Year 2016, Gold 2017 & 2018</li>
+            <li>Cambridge Film Competition Winner 2019</li>
+          </ul>
+        </li>
         <li><strong>Soft Skills –</strong> Analytical Thinking, Leadership, Collaboration, Communication, Creativity</li>
       </ul>
 

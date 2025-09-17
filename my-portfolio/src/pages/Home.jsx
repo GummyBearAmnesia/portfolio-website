@@ -1,5 +1,6 @@
 import Welcome from '../components/Welcome.jsx'
 import Contact from '../components/Contact.jsx'
+import Skills from '../components/Skills.jsx'
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       
       <div className="columns">
         <div className="column">
+          <Skills />
           <Contact />
         </div>
       </div>

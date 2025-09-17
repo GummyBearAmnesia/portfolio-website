@@ -1,0 +1,49 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.skill-card {
+  background: #caecf075; /* matches project-card bg */
+  border-radius: 12px;
+  padding: 0.8rem;
+  box-shadow: 0 4px 12px rgba(208, 148, 148, 0.203);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(208, 148, 148, 0.3);
+}
+
+.skill-card h4 {
+  color: #54b3c6; /* matches project-card h3 */
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #5aa0c0a9; /* matches repo-link bg vibe */
+  color: white;          /* same as repo-link text */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.6;
+  padding: 0.35rem 0.8rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.tag:hover {
+  background: #f6faff;   /* same hover as repo-link */
+  color: #5aa0c0a9;      /* inverse to match style */
+  cursor: pointer;
+}
