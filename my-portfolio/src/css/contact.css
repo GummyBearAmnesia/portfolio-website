@@ -1,0 +1,11 @@
+.contact {
+  padding: 1rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}

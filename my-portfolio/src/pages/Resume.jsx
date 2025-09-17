@@ -1,27 +1,14 @@
+import Contact from '../components/Contact.jsx'
+import '../css/resume.css'
+
 function Resume() {
   return (
-
     <div className="Resume">
-      <div className="contact">
-        <a href="mailto:aamukta.thogata@gmail.com">
-              aamukta.thogata@gmail.com
-        </a>
-        <a
-          href="https://github.com/gummybearamnesia"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github
-        </a>
-        <a
-          href="https://linkedin.com/in/ammubean"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedin
-        </a>
-      </div>
+      <h1>Aamukta Thogata</h1>
+      
+      <Contact/>
 
+      
       <h3>Education</h3>
       <ul>
         <li>

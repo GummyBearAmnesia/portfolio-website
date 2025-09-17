@@ -1,13 +1,15 @@
 import Welcome from '../components/Welcome.jsx'
-import Resume from '../components/Resume.jsx'
-import './css/Resume.css'
+import Contact from '../components/Contact.jsx'
 
 function Home() {
   return (
     <div className='Home'>
       {/* This is the welcome information */}
       <Welcome />
-      <Resume />
+      
+      <p>
+        <strong> Contact me here : <Contact /> </strong>
+      </p>
     </div>
   )
 }
