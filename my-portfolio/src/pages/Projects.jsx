@@ -1,6 +1,10 @@
 function Projects() {
   return (
-    <p> Hello</p>
+    <div className='columns'>
+      <div className='column'>
+        <p>Here you can see more about my projects!</p>
+      </div>
+    </div>
   )
 }
 

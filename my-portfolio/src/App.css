@@ -24,15 +24,16 @@
 
 .columns {
   display: flex;
-  gap: 2rem; /* space between columns */
   flex-wrap: wrap; /* allows wrapping on smaller screens */
   flex-direction: column;
   align-items: center;
+  gap: 0rem;
 }
 
 .column {
   flex: 1; /* each column takes equal width */
   min-width: 200px; /* prevents columns from getting too narrow */
+  width: 90%;
   max-width: 800px;
 }
 

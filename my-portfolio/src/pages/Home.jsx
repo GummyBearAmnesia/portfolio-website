@@ -7,9 +7,11 @@ function Home() {
       {/* This is the welcome information */}
       <Welcome />
       
-      <p>
-        <strong> Contact me here : <Contact /> </strong>
-      </p>
+      <div className="columns">
+        <div className="column">
+          <Contact />
+        </div>
+      </div>
     </div>
   )
 }

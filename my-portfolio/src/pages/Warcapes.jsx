@@ -1,9 +1,9 @@
 function Warcapes() {
   return (
-    <div className='Warcapes'>
-      <p>
-        Not all heroes wear capes.
-      </p>
+    <div className='columns'>
+      <div className='column'>
+        <p> Not all heroes wear capes. </p>
+      </div>
     </div>
   )
 }

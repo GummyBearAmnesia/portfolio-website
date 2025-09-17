@@ -4,10 +4,11 @@ import '../css/resume.css'
 function Resume() {
   return (
     <div className="Resume">
-      <h1>Aamukta Thogata</h1>
+      <p>
+        <h1>Aamukta Thogata</h1>
       
-      <Contact/>
-
+        <Contact/>
+      </p>
       
       <h3>Education</h3>
       <ul>
