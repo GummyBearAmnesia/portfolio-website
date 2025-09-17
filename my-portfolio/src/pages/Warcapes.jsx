@@ -19,9 +19,9 @@ function Warcapes() {
 
         {unlocked && (
           <div className="easter-egg">
-            🦸‍♂️🦸‍♀️✨ Loyal fans, please wait a bit longer. Pterri is on the way! ✨🦸‍♂️🦸‍♀️
+            👽👽✨ Loyal fans, please wait a bit longer. Pterri is on the way! ✨👽👽
             <div className="floating-capes">
-              🦸‍♂️🦸‍♀️🦸‍♂️🦸‍♀️
+              🥳🥳🥳🥳
             </div>
           </div>
         )}
