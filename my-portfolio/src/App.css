@@ -1,8 +1,9 @@
 #root {
   max-width: 1280px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   padding: 1rem;
+  padding-top: 8rem;
   text-align: center;
 }
 
@@ -92,7 +93,7 @@ p {
   .columns {
     flex-direction: column;
     gap: 1rem;
-    padding-top: 6rem; /* prevents content from going under header */
+    padding-top: 4rem; /* prevents content from going under header */
   }
 
   .column {
@@ -100,16 +101,6 @@ p {
   }
 }
 
-.Contact, .Projects, .Home{
-  display: flex;                  /* flexbox for centering */
-  flex-direction: column;         
-  justify-content: center;        /* vertical centering */
-  align-items: center;            /* horizontal centering */
-  text-align: center;             /* center the text too */
-  padding-right: 2rem;
-  padding-left: 2rem;;
-  padding-top: 6rem;
-}
 
 .contact-links {
   display: flex;
@@ -139,7 +130,6 @@ p {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(193, 129, 129, 0.203);
   max-width: 500px;
-  width: 100%;
 }
 
 .Resume {
