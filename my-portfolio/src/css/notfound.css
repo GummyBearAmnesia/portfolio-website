@@ -1,0 +1,35 @@
+.NotFound {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #b95055;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.NotFound h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.NotFound p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home-link {
+  padding: 0.5rem 1.2rem;
+  background: #5aa0c0a9;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.home-link:hover {
+  background: #f6faff;
+  color: #5aa0c0a9;
+}

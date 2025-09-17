@@ -1,11 +1,12 @@
 import React from 'react';
 import '../css/blog.css';
+import Osha from '../assets/pictures/oshawott.webp'
 
 const blogPosts = [
   {
     title: "My First Blog Post",
-    image: "/path/to/image1.jpg",
-    excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    image: Osha,
+    excerpt: "It was my childhood dream to make this website :) And today I finally did it.",
     link: "/blog/post-1"
   },
 ];
@@ -20,7 +21,7 @@ export default function Blog() {
           </div>
           <div className="blog-text">
             <h3>{post.title}</h3>
-            <p>{post.excerpt}</p>
+            <div className='text'>{post.excerpt}</div>
             <a href={post.link} className="read-more">Read More</a>
           </div>
         </div>

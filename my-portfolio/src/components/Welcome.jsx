@@ -1,5 +1,4 @@
 import jiggly from '../assets/jiggly.jpg'
-import osha from '../assets/oshawott.webp'
 import hello from '../assets/hello.png'
 import imammu from '../assets/imammu.png'
 

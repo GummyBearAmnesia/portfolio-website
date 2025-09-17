@@ -38,7 +38,7 @@
   margin-bottom: 0.5rem;
 }
 
-.blog-text p {
+.blog-text .text {
   color: #c05a72;
   font-family: 'Quicksand', sans-serif;
   font-size: 0.95rem;
