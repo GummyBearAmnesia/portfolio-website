@@ -1,5 +1,6 @@
 import Welcome from '../components/Welcome.jsx'
 import Resume from '../components/Resume.jsx'
+import './css/Resume.css'
 
 function Home() {
   return (

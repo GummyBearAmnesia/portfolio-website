@@ -1,3 +1,5 @@
+import './css/Card.css'
+
 function Contact() {
   return (
     <div className="Contact">

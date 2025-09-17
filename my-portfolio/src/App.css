@@ -7,7 +7,6 @@
   text-align: center;
 }
 
-
 .quicksand {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
@@ -24,21 +23,6 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .columns {
   display: flex;
   gap: 2rem; /* space between columns */
@@ -51,7 +35,7 @@
 }
 
 h1 {
-  color: #34474f;
+  color: #b95055;
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
   font-weight: 1000;
@@ -101,57 +85,3 @@ p {
   }
 }
 
-.contact-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  align-items:start;
-}
-
-.contact-links a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  text-decoration: none;
-  color: #4b97ca;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.contact-links a:hover {
-  color: #d55676;
-  text-decoration-line:underline;
-}
-
-.contact-card {
-  background: #eee9e975;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(193, 129, 129, 0.203);
-  max-width: 500px;
-}
-
-.Resume {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem 2rem;
-  line-height: 1.6;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-}
-
-.Resume h1 {
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-.Resume h3 {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.3rem;
-}
-
-.Resume p {
-  margin: 0.5rem 0;
-}
