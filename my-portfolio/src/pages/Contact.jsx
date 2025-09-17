@@ -8,12 +8,9 @@ function Contact() {
       </h3>
 
       <p>
-        If you wish to contact me, you can contact me through my good friend sygnxl. 
-        Just add her on League of Legends and you can get to me from there! Very professional,
-        I promise.
+        Feel free to contact me if you have any questions, or want
+        to get in touch ~
       </p>
-
-      <h3>Okay.. But for real.</h3>
 
       <div className="contact-card">
         <div className="contact-links">

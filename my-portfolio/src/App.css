@@ -61,6 +61,15 @@ p {
   flex-wrap: wrap;
 }
 
+li {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #d48295;
+  flex-wrap: wrap;
+}
+
 .spacing {
   padding: 1rem;
 }

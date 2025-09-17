@@ -18,8 +18,25 @@
   margin-top: 1.5rem;
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3rem;
+  text-align: center;
 }
 
 .Resume p {
   margin: 0.5rem 0;
+}
+
+.Resume ul {
+  list-style-type: disc;    /* normal bullet points */
+  margin: 1rem 0 1rem 1.5rem; /* indent nicely */
+  padding: 0;
+  text-align: left;         /* 👈 aligns bullets at the start */
+}
+
+.Resume li {
+  margin-bottom: 1rem;    /* add spacing between items */
+}
+
+.Resume li strong {
+  color: #4f1919; /* 👈 darker colour for emphasis */
+  font-weight: 700;
 }
