@@ -45,10 +45,10 @@
 
 @media (max-width: 600px) {
   .Header {
-    padding: 2rem 0rem;;
+    padding: rem 0rem;;
   }
   .Header ul {
-    gap: 1rem;  /* tighter spacing */
+    gap: 0.7rem;  /* tighter spacing */
   }
   .Header a {
     font-size: 1rem;
