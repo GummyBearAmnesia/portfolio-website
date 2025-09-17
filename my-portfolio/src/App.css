@@ -1,7 +1,8 @@
 #root {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -83,6 +84,8 @@ p {
   width: auto;      /* keeps aspect ratio */
   border-radius: 8px; /* optional, for style */
   justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 968px) {

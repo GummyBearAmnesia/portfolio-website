@@ -42,3 +42,15 @@
 .Header .warcapes a {
   color: rgb(197, 255, 204);
 }
+
+@media (max-width: 600px) {
+  .Header {
+    padding: 2rem 0rem;;
+  }
+  .Header ul {
+    gap: 1rem;  /* tighter spacing */
+  }
+  .Header a {
+    font-size: 1rem;
+  }
+}
