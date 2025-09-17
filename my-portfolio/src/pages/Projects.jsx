@@ -18,7 +18,7 @@ const projects = [
     title: "Virtual Study Room Website",
     image: Study,
     description: "A website for online study sessions through virtual study rooms. Users can create and join rooms, share resources and work collaboratively with friends.",
-    repo: "https://github.com/your-username/dataviz"
+    repo: "https://github.com/GummyBearAmnesia/virtual-study-room"
   },
   {
     title: "2D RPG Game",
