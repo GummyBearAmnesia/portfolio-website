@@ -79,8 +79,9 @@ p {
 }
 
 p:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(208, 148, 148, 0.3);
+  transform: translateY(-8px);
+  box-shadow: 0 0 8px #b95055, 0 0 16px #f7dddd, 0 8px 24px rgba(208, 148, 148, 0.4);
+  transition: all 0.25s ease;
 }
 
 a {
