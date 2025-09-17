@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Hotel Delivery Robot",
     image: Robot,
-    description: "Autonomous delivery robot with ROS, YOLO-based image detection, and actionlib navigation (pathfinding).",
+    description: "Autonomous delivery robot with ROS, SMACH state machines, YOLO-based image detection, and actionlib navigation (pathfinding).",
     repo: "https://github.com/GummyBearAmnesia/ros-hotel-bot"
   },
   {
