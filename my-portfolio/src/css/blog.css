@@ -10,7 +10,7 @@
   gap: 2rem;
   background: #f7dddd75; /* matches project-card bg */
   border-radius: 12px;
-  padding: 1rem;
+  padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(208, 148, 148, 0.203);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }

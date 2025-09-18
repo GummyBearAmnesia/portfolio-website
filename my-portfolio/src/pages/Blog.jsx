@@ -14,18 +14,22 @@ const blogPosts = [
 export default function Blog() {
   return (
     <div className="Blog">
-      {blogPosts.map((post, index) => (
-        <div key={index} className="blog-card">
-          <div className="blog-image">
-            <img src={post.image} alt={post.title} />
-          </div>
-          <div className="blog-text">
-            <h3>{post.title}</h3>
-            <div className='text'>{post.excerpt}</div>
-            <a href={post.link} className="read-more">Read More</a>
-          </div>
+      <div className="columns">
+        <div className ="columns">
+          {blogPosts.map((post, index) => (
+            <div key={index} className="blog-card">
+              <div className="blog-image">
+                <img src={post.image} alt={post.title} />
+              </div>
+              <div className="blog-text">
+                <h3>{post.title}</h3>
+                <div className='text'>{post.excerpt}</div>
+                <a href={post.link} className="read-more">Read More</a>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 }
