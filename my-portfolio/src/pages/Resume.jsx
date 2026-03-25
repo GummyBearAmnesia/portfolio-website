@@ -5,7 +5,7 @@ function Resume() {
   return (
     <div className="Resume">
       <p>
-        <h1>Aamukta Thogata</h1>
+        <h1>GummyBearAmnesia</h1>
       
         <Contact/>
       </p>
